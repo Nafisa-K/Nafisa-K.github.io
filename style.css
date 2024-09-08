@@ -1,0 +1,62 @@
+/* TOP HEADER */
+#main-header {display: flex; height: 8vh; align-items: center; justify-content: space-around;}
+
+#logo {color: rgb(255, 255, 255); font-family: "Fredoka One", sans-serif; outline-color: rgb(0, 0, 0); outline-width: 2cm;}
+
+h1 {margin-top: 15px;}
+
+body>header 
+{background-color: orange;
+color:aliceblue;}
+
+.p {list-style: none; display: flex; }
+
+.p>li {padding: 16px;}
+
+
+
+
+/* MAIN & SIDE BAR */
+
+/* MAIN */
+body 
+ {font-family: Helvetica, Arial, sans-serif;
+  margin: 0px; font-size: 1.5vw;}
+
+.facts {text-align: center; font-size: 2vh;}
+
+.navbutton {color: white; text-decoration: none; list-style: none;
+  padding: 12px; border: 1px solid white; border-radius: 15%;}
+
+.navbutton>ul {list-style: none;}
+
+
+body>main article {margin: auto; width: 70%;}
+
+form {text-align: center;}
+
+#form-h2 {text-align: center;}
+
+image {border-radius: 50%;}
+
+
+/* SIDE BAR */
+
+#main-content {display: flex; justify-content: space-around; }
+
+#main-content>div {width: 70%;}
+
+
+
+
+/* MAIN & SIDE BAR FIN */
+
+
+/* FOOTER */
+body>footer
+ {background-color: orange; display: flex; }
+
+
+ .footer-ul {display: flex; list-style: none; color: white; margin-left: 20px;}
+
+.footer-ul>div>li>a { margin-left: 12px; text-decoration: none;}
