@@ -7,75 +7,37 @@
 rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrightBlogSite</title>
+    <title>Pakistan - Land of the Pure</title>
+    <title>Link Color Example</title>
+  <style>
+    a:link {
+      color: #f7faf7f5; /* Default color for unvisited links */
+    }
+    a:visited {
+      color: #f7faf7f5; /* This stops the visited link from turning purple */
+    }
+    a:hover {
+      color: black; /* Optional: Changes color when hovering */
+    }
+    
+  </style>
 </head>
 <body>
     <header id="main-header">
         <!-- the content of the header goes here -->
-         <h1 id="logo">BrightBlog</h1>
-         <nav>
-          <ul class="p">
-            <li><a href="" class="navbutton">Home</a></li>
-            <li><a href="" class="navbutton">About Us</a></li>
-            <li><a href="" class="navbutton">Contact</a></li>
-          </ul>  
-         </nav>
+         <h1 id="logo">Pakistan - Land of the Pure</h1>
     </header>
-    <main>
-        <div id="main-content">
-            <aside>
-                <section>
-                     <h4>Filter by Month</h4>
-                     <nav>
-                        <ul>
-                            <li><a href=""></a>Filter for January</li>
-                            <li><a href=""></a>Filter for February</li>
-                            <li><a href=""></a>Filter for March</li>
-                        </ul>
-                     </nav>
-                </section>
-                <section>
-                    <h4>Filter by Category</h4>
-                <nav>
-                    <ul>
-                        <li><a href=""></a>Fact One</li>
-                        <li><a href=""></a>Fact Two</li>
-                        <li><a href=""></a>Fact Three</li>
-                    </ul>
-                </nav>
-                </section>
-                <!-- Our side menu will go here -->
-            </aside>
-            <div>
-                <article>
-                    <header>
-                        <!--Articles header goes here  -->
-                        <h2 class="facts">Ten facts about something</h2>
-                        <h3>Read Time: 6 minutes</h3>
-                    </header> 
-                    <main>
-                       <p>Some facts about  something</p>
-                       <p>More facts about  something</p>
-                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa quod 
-                        natus incidunt blanditiis reprehenderit esse maiores dolores perferendis ad, fugiat
-                         aspernatur odio temporibus sed repellat reiciendis obcaecati delectus itaque!</p>
-                       <blockquote> 
-                        <!-- You can add any citations/comments etc. under main thing (main) here -->
-                       </blockquote>
-                    </main>
-                    <footer>
-                       <h2>Author: Nafisa Pagganwala</h2>
-                       <img src="https://placebear.com/500/600" alt="a placement picture of a bear">
-                       <h3>Last Edited: 14th August 2024</h3>
-                       <a href="https://frontdoor.spa.gla.ac.uk/Portal/Student.aspx" target="_blank">Profile</a>
-                    </footer>
-                </article>
-            </div>
-        </div>
 
+    <main>
+<!-- START HERE AND JUST ADD IN ALTERNATING PARAS AND PICTURES -->
+    </main>
+
+           
+<!-- form -->
          <hr>
-        <h2 id="form h2">Sign up to our Newsletter!</h2>
-        <form action="" method="">
+         <h2 id="form-h2">Sign up to Pak Post!</h2>
+
+         <form action="" method="">
            <label for="First_Name">First Name:</label> 
            <input type="text" id="First_name" name="First_name" required>
            <br>
@@ -85,17 +47,6 @@ rel="stylesheet">
            <label for="email">Email:</label>
            <input type="email" id="email" name="email">
            <br>
-           <label for="password">Password:</label>
-           <input type="password" id="password" name="password">
-           <br>
-           <label for="favourite_animal">Favorite Animal:</label>
-           <input type="radio" name="favourite_animal" id="dog" value="dog">
-           <label for="dog">Dog</label>
-           <input type="radio" name="favourite_animal" id="dog" value="cat">
-           <label for="cat">Cat</label>
-           <input type="radio" name="favourite_animal" id="dog" value="rat">
-           <label for="rat">Rat</label>
-           <br>
            <label for="country">Country:</label>
            <select type="country" id="country">
             <option value="england">England</option>
@@ -104,33 +55,31 @@ rel="stylesheet">
             <option value="northern_ireland">Northern Ireland</option>
            </select>
            <br>
-           <label for="bio">Biography:</label>
-           <textarea name="bio" id="bio"></textarea>
-           <br>
-           <input type="checkbox" id="subscribe" name="subscribe">
-           <label for="subscribe">Subscribe!</label>
-           <br>
            <input type="submit" value="Send!">
         </form>
         <hr>
     </main>
     <footer>
-        <h2>BrightBlogSite</h2>
-        <section>
+      <div class="left">
+        <h2>Visit Pakistan</h2>
+      </div>
+        <div class="right">
+            <section>
             <nav>
                 <ul class="footer-ul">
                     <div>
-                        <li><a href=""></a>About Us</li>
-                        <li><a href=""></a>Legal</li>
+                        <li id="About"><a href="https://tourism.gov.pk/pakistan.html" target="_blank">About Us</a></li>
+                        <li><a href="https://crumblepakistan.com/"target="_blank" >Cookie Policy</a></li>
                     </div>
                     <div>
-                        <li><a href=""></a>Contact Us</li>
-                        <li><a href=""></a>Cookie Policy</li>
+                        <li><a href="https://salampakistan.gov.pk/" target="_blank" >Legal</a></li>
+                        <li><a href="https://salampakistan.gov.pk/planning/tic" target="_blank">Contact Us</a></li>
                     </div>
                 </ul>
             </nav>
-        </section>
-        <!-- footer of entire website goes here -->
+            </section>
+        </div>
+             <!-- footer of entire website goes here -->
     </footer>
 </body>
 </html>
