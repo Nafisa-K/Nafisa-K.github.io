@@ -18,7 +18,45 @@
 
 /* gtp main */
 
+#main {padding-top: 8vh;
 
+}
+
+        .row {
+            display: flex;
+            margin: 20px 0;
+        }
+
+        .row img {
+            width: 80vh;
+            height: 50vh;
+            object-fit: cover;
+            border-radius: 1vh;
+            
+        }
+
+        .row:nth-child(odd) {
+            flex-direction: row; /* Image on the left, text on the right */
+        }
+
+        .row:nth-child(even) {
+            flex-direction: row-reverse; /* Image on the right, text on the left */
+        }
+
+        .text {
+            padding: 10vh;
+            width: 60vh;
+            display: flex;
+            align-items: center;
+            font-size: 2vh;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+        }
+
+        .image {
+            width: 50%;
+        }
+    
 
 /* gtp main */
 body 
